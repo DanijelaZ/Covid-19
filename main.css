@@ -1,0 +1,212 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	background-color: hsl(60, 39%, 85%);
+	overflow: auto;
+}
+
+.jumbotron-header{
+	background: url("photos/hero-image.jpg") no-repeat center;
+	background-size: cover;
+	position: relative;
+	height: calc(100vh);
+	border-radius: 0;
+	margin-bottom: 0;
+	background-attachment: fixed;
+
+
+}
+
+.navFix{
+	position: fixed;
+	top:0;
+	background: transparent;
+	width:100%;
+	height: 60px;
+}
+
+.black{
+	position: fixed;
+	top: 0;
+	background: black;
+	width:100%;
+	height: 60px;
+	opacity: 0.5;
+ }
+
+ .navFix{
+ 	background-color: silver !important;
+ 	height: auto;
+ }
+
+li{
+	margin-right: 15px;
+}
+
+.navbar-hamburger{
+	font-size: 25px;
+	font-weight: 600;
+	color: black;
+	padding-left: 10px; 
+}
+
+.navbar-hamburger:hover{
+	text-decoration: none;
+	color:black;
+}
+
+.a-link{
+	color:white;
+	font-size: 20px;
+}
+
+.nav-link:hover{
+	color:orange;
+}
+
+.header-h3{
+	color:black;
+	margin-top: 15%;
+	font-size: 32px;
+	background: linear-gradient(to right, silver, transparent);
+	border-radius: 18px 0;
+	margin-left: -6%;
+	display: inline-block;
+	opacity:0.7;
+	padding: 15px 10px 15px 20px;
+}
+
+.header-h3:hover{
+	opacity:0.4;
+
+}
+
+.header-h2{
+	color:black;
+	margin: 2vw 0;
+	font-size: 60px;
+	border-left:5px solid black;
+	padding-right: 10px;
+	display: inline-block;
+	
+}
+
+.header-h2:hover{
+	border-left: 5px solid white;
+	opacity:0.7;
+}
+
+.button{
+	color: white;
+	border: 2px solid white;
+	border-radius: 0px;
+	padding: 15px 50px;
+	font-weight: bold;
+	font-size: 23px;
+	text-decoration: none !important;
+	margin-left:-2%;
+}
+
+.button:hover{
+	color:black;
+	background-color: white;
+	text-decoration: none !important;
+	border-radius: 8px;
+}
+
+.btn{
+	text-decoration: none;
+}
+
+.description{
+	background-color: beige;
+	padding: 15px;
+	margin-top: 0px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 23px;
+	border:2px solid black;
+}
+
+.symptomsOfVirus{
+	height: 180px;
+	width:250px;
+	padding-left: 60px;
+}
+
+.SText{
+	color: hsl(0, 9%, 48%);
+	font-weight: 700;
+	font-size: 50px;
+	padding:15px 10px 15px 70px;
+	text-shadow: 2px 2px black;
+}
+
+.SD{
+	display: inline-block;
+	padding: 10px 0px;
+	color:hsl(0, 9%, 48%);
+}
+
+.titles{
+	border-right: 2px solid black;
+	display: block;
+	text-align: center;
+	font-style: italic;
+	font-weight: 800;
+	background-color: hsl(0, 9%, 48%);
+	color:beige;
+	padding: 10px 0px;
+}
+
+.number{
+	font-size: 100px;
+	padding: 10px;
+	text-align: center;
+	border:1px solid black;
+
+}
+
+.tekst{
+	border: 5px inset silver;
+	padding: 20px 50px 20px 30px;
+	background-color: silver;
+	color:beige;
+}
+
+.prevention{
+	height: 200px;
+	width:260px;
+	padding-left: 60px;
+}
+
+.AdviceText{
+	color: hsl(0, 9%, 48%);
+	font-weight: 700;
+	font-size: 50px;
+	padding:15px 10px 15px 20px;
+	text-shadow: 2px 2px black;
+}
+
+form{
+	border:2px solid black;
+	padding: 30px 60px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+form p{
+	
+	font-size: 19px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+footer p{
+	font-size: 12px;
+	background-color: gray;
+	color:white;
+	padding: 5px;
+	margin-bottom: 0;
+	text-align: center;
+}
